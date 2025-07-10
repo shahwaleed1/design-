@@ -39,9 +39,9 @@ const Technoles = () => {
 
     return (
         <div className='container '>
-            <div className=' flex items-center justify-center flex-wrap gap-2'>
+            <div className=' flex items-center flex-wrap gap-2'>
                 {technology.map((tech, index) => (
-                    <div key={index} className='p-6 w-sm hover:bg-zinc-800 transition-all md:w-[20rem]'>
+                    <div key={index} className='p-6 m-auto w-sm hover:bg-zinc-800 transition-all md:w-[20rem]'>
                         <div className='text-center md:text-left'>
                             <h2 className='text-2xl sm:font-semibold md:text-3xl md:font-bold'>{tech.name}</h2>
                             <p>{tech.experience}</p>

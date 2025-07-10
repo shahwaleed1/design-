@@ -5,7 +5,7 @@ const Contect = () => {
         <div className='bg-[#242424]'>
   <div className='container flex flex-wrap lg:flex-nowrap mt-20 py-10 gap-7'>
     <div className='w-full lg:w-1/2'>
-      <h1 className='font-bold text-6xl md:text-center'>Contact </h1>
+      <h1 className='font-bold text-6xl sm:text-center md:text-start'>Contact </h1>
       <div className='mt-8'>
         I would love hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.
       </div>

@@ -35,7 +35,7 @@ const Projects = () => {
       <div className='my-6 flex items-center flex-wrap'>
         {data.map((project, index) => (
           <div key={index} className='p-2 mb-8 m-auto'>
-            <img src="/project-2.jpg" className='w-[28rem] md:w-[20rem]' alt="" />
+           <img src="/project-2.jpg" className="md:w-[20rem] lg:w-[28rem]" alt="" />
             <div className='mt-2'>
               <h3 className='text-2xl font-semibold'>{project.name}</h3>
               <p>{project.tech}</p>
